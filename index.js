@@ -1,4 +1,4 @@
-// alert(7)
+
 // Function for the current UTC time
 
 function updateUTCTime() {
