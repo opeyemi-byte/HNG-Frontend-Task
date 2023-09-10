@@ -1,5 +1,5 @@
 // alert(7)
-// Function to update the current UTC time
+// Function for the current UTC time
 
 function updateUTCTime() {
     const currentDate = new Date();
@@ -7,7 +7,7 @@ function updateUTCTime() {
     document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTime;
 }
 
-// Function to update the current day of the week
+// Function for the current day of the week
 function updateDayOfWeek() {
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDate = new Date();
