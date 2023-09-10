@@ -1,0 +1,91 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .container{
+      background-color: rgb(197, 212, 231);
+      height: 90%;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      border-radius: 10px;
+      padding-bottom: 7px;
+    
+  }
+  .nameDiv{
+      width: 60%;
+      background-color: rgb(198, 157, 157);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      
+      padding: 20px;
+      margin: 10px;
+  }
+
+  .img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%; 
+}
+
+  
+  .infoDiv{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 10rem;
+      padding: 0 1rem;
+      border: 2px solid  rgb(247, 93, 93);
+      border-radius: 1rem;
+  }
+  
+ 
+  .DayOfTheWeek{
+      font-size: 1.2rem;
+  }
+  .UTCTime{
+      font-size: 1.2rem;
+  }
+  .track{
+      font-size: 1.2rem;
+  }
+  
+  .linkDiv{
+  display: flex;
+  width: 100%;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .url{
+  margin-left: .4rem;
+  }
+  
+  @media (max-width: 850px) {
+      body {
+          font-size: 14px;
+      }
+      .container{
+          width: 90%;
+      }
+      
+      .nameDiv{
+     width: 90%;
+      }
+  }
